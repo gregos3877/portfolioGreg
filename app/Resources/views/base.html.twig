@@ -11,6 +11,7 @@
     <title>{% block title %}Grayscale - Start Bootstrap Theme{% endblock %}</title>
 
     {% block stylesheets %}{% endblock %}
+    
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('theme/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -25,17 +26,15 @@
 </head>
 
 <body id="page-top">
+
+{% include 'menu/menu.html.twig' %}
+
 {% block body %}{% endblock %}
 
-
-<!-- Footer -->
-<footer class="bg-black small text-center text-white-50">
-    <div class="container">
-        Copyright &copy; Your Website 2018
-    </div>
-</footer>
+{% include 'footer/footer.html.twig' %}
 
 {% block javascripts %}{% endblock %}
+
 <!-- Bootstrap core JavaScript -->
 <script src="{{ asset('theme/vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('theme/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
