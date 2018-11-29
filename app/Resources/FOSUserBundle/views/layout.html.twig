@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    {% block content %}
+        <!-- Header -->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-right">
+                    {% block fos_user_content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </header>
+    {% endblock %}
+{% endblock %}
+
+
