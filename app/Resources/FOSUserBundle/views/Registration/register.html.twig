@@ -1,0 +1,15 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+
+    <div class="col-md-10 col-lg-8 mx-auto text-center">
+        <a href="{{ path('fos_user_security_login') }}" class="text-white mb-5">
+            <h2 class="text-white mb-5">Vous avez deja un compte? Cliquez Ici</h2>
+        </a>
+    </div>
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-right">
+            {% include "@FOSUser/Registration/register_content.html.twig" %}
+        </div>
+    </div>
+{% endblock fos_user_content %}
