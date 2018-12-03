@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% block title %}Stellar admin{% endblock %}</title>
+    {% block stylesheets %}
+        <!-- plugins:css -->
+        <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
+        <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
+        <!-- endinject -->
+        <!-- plugin css for this page -->
+        <link rel="stylesheet" href="node_modules/chartist/dist/chartist.min.css"/>
+        <link rel="stylesheet" href="node_modules/jvectormap/jquery-jvectormap.css"/>
+        <!-- End plugin css for this page -->
+        <!-- inject:css -->
+        <link rel="stylesheet" href="{{ asset('theme/backend/css/style.css') }}">
+        <!-- endinject -->
+        <link rel="shortcut icon" href="{{ asset('theme/backend/images/favicon.png') }}"/>
+    {% endblock %}
+</head>
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        {% block topMenu %}
+            {% include 'menu/topMenuBackend.html.twig' %}
+        {% endblock %}
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <div class="row row-offcanvas row-offcanvas-right">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                {% block leftMenu %}
+                    {% include 'menu/leftMenuBackend.html.twig' %}
+                {% endblock %}
+            </nav>
+            <!-- partial -->
+            <div class="content-wrapper">
+                {% block body %}
+
+                {% endblock %}
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:partials/_footer.html -->
+            <footer class="footer">
+                {% block footer %}
+                    <div class="container-fluid clearfix">
+                    <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a
+                                href="http://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i
+                                    class="mdi mdi-heart text-danger"></i></span>
+                    </div>
+                {% endblock %}
+            </footer>
+            <!-- partial -->
+        </div>
+        <!-- row-offcanvas ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+{% block javascripts %}
+    <!-- plugins:js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="node_modules/flot/jquery.flot.js"></script>
+    <script src="node_modules/flot/jquery.flot.resize.js"></script>
+    <script src="node_modules/flot.curvedlines/curvedLines.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="{{ asset('theme/backend/js/off-canvas.js') }}"></script>
+    <script src="{{ asset('theme/backend/js/misc.js') }}"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+{% endblock %}
+</body>
+
+</html>

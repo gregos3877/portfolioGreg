@@ -10,41 +10,44 @@
 
     <title>{% block title %}Grayscale - Start Bootstrap Theme{% endblock %}</title>
 
-    {% block stylesheets %}{% endblock %}
-    
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('theme/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    {% block stylesheets %}
 
-    <!-- Custom fonts for this template -->
-    <link href="{{ asset('theme/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-          rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="{{ asset('theme/css/grayscale.min.css') }}" rel="stylesheet">
-
+        <!-- Bootstrap core CSS -->
+        <link href="{{ asset('theme/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        <!-- Custom fonts for this template -->
+        <link href="{{ asset('theme/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+              rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="{{ asset('theme/css/grayscale.min.css') }}" rel="stylesheet">
+    {% endblock %}
 </head>
 
 <body id="page-top">
 
-{% include 'menu/menu.html.twig' %}
+{% block menu %}
+    {% include 'menu/menu.html.twig' %}
+{% endblock %}
 
 {% block body %}{% endblock %}
 
-{% include 'footer/footer.html.twig' %}
+{% block footer %}
+    {% include 'footer/footer.html.twig' %}
+{% endblock %}
 
-{% block javascripts %}{% endblock %}
+{% block javascripts %}
 
-<!-- Bootstrap core JavaScript -->
-<script src="{{ asset('theme/vendor/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('theme/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ asset('theme/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('theme/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-<!-- Plugin JavaScript -->
-<script src="{{ asset('theme/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <!-- Plugin JavaScript -->
+    <script src="{{ asset('theme/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
-<!-- Custom scripts for this template -->
-<script src="{{ asset('theme/js/grayscale.min.js') }}"></script>
-
+    <!-- Custom scripts for this template -->
+    <script src="{{ asset('theme/js/grayscale.min.js') }}"></script>
+{% endblock %}
 </body>
 
 </html>
