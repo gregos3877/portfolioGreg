@@ -1,10 +1,12 @@
 <div class="text-center navbar-brand-wrapper">
-    <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.svg" alt="logo"></a>
-    <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo_mini.svg"
-                                                                   alt="logo"></a>
+    <a class="navbar-brand brand-logo" href="index.html"><img src="{{ asset('theme/backend/images/logo.svg') }}"
+                                                              alt="logo"></a>
+    <a class="navbar-brand brand-logo-mini" href="index.html"><img
+                src="{{ asset('theme/backend/images/logo_mini.svg') }}"
+                alt="logo"></a>
 </div>
 <div class="navbar-menu-wrapper d-flex align-items-center">
-    <p class="page-name d-none d-lg-block">Hi, Dave Mattew</p>
+    <p class="page-name d-none d-lg-block">Hi, {{ app.user.username }}</p>
     <ul class="navbar-nav ml-lg-auto">
         <li class="nav-item">
             <form class="mt-2 mt-md-0 d-none d-lg-block search-input">
@@ -121,8 +123,8 @@
             </a>
         </li>
         <li class="nav-item d-none d-sm-block profile-img">
-            <a class="nav-link profile-image" href="#">
-                <img src="images/faces/face4.jpg" alt="profile-img">
+            <a class="nav-link profile-image" href="{{ path('mon_compte') }}">
+                <img src="{{ asset('theme/backend/images/faces/face4.jpg') }}" alt="profile-img">
                 <span class="online-status online bg-success"></span>
             </a>
         </li>

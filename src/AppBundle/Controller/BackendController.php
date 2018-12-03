@@ -17,4 +17,12 @@ class BackendController extends Controller
         ));
     }
 
+    /**
+     * @Route("/monCompte", name="mon_compte")
+     */
+    public function monCompteAction()
+    {
+        return $this->render('backend/monCompte.html.twig');
+    }
+
 }

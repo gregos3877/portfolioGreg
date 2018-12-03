@@ -2,548 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09bcf3bd-7ee2-4468-ad1a-292c66d19935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/baseBackend.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/menu/leftMenuBackend.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/PSD/Stellar Free Admin Dashboard.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/css/maps/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/auth/lock_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/auth/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/auth/login_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/auth/login_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/auth/register_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/auth/register_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/carousel/banner_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces-clipart/pic-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces-clipart/pic-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces-clipart/pic-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces-clipart/pic-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/faces/face9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/001-interface-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/002-tool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/003-interface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/004-folder-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/005-database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/006-record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/007-folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/128/008-archive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/001-interface-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/002-tool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/003-interface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/004-folder-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/005-database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/006-record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/007-folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/256/008-archive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/001-interface-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/002-tool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/003-interface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/004-folder-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/005-database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/006-record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/007-folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/512/008-archive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/001-interface-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/002-tool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/003-interface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/004-folder-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/005-database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/006-record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/007-folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/file-icons/64/008-archive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/AU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/BE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/BF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/BO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/BR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/CZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/DE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/DJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/DK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/DZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/EE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/EG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/ES.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/FI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/FR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/GA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/GB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/GM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/GT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/HN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/HT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/HU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/ID.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/IE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/IL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/IN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/IQ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/IR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/IT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/JM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/JO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/JP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/KG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/KN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/KP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/KR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/KW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/KZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/LA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/LB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/LC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/LS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/LU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/LV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/MG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/MK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/ML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/MM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/MT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/MX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/NA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/NE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/NG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/NI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/NL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/NO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/OM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/PY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/QA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/RO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/RU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/RW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/SV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/TD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/TJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/TL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/TR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/TZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/UA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/US.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/VE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/VN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/flags/YE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/lightbox/play-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/lightbox/thumb-v-v-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/lightbox/thumb-v-v-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/lightbox/thumb-v-y-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/lightbox/thumb-v-y-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/logo_mini.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/logo_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/1280x768/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/300x300/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/Banner_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/Login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/Login_bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/Mac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/angular-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/bootstrap-stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/e-commerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/editors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/footer_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/forms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/html5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/lockscreen-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/modal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/popup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/samples/widgets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/jsgrid-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/logo-mini.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/images/sprites/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/ace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/avgrund.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/bt-maxLength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/c3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/chartist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/circle-progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/codeEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/context-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/cropper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/data-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/desktop-notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/dragula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/dropify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/editorDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/file-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/float-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/form-addons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/form-repeater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/form-validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/formpickers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/google-charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/google-maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/hoverable-collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/iCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/ion-range-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/jq.tablesort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/jquery-file-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/js-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/just-gage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/light-gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/listify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/mapeal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/mapeal_example_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/mapeal_example_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/mapiel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/misc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/modal-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/no-ui-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/off-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/owl-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/paginate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/progress-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/rickshaw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/tablesorter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/tight-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/toastDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/todolist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/tooltips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/tour.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/typeahead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/js/x-editable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/apps/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/apps/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/apps/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/apps/todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/c3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/chartist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/chartjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/flot-chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/google-charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/justGage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/rickshaw.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/charts/sparkline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/documentation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/advanced_elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/basic_elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/code_editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/dropify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/text_editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/validation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/forms/wizard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/icons/flag-icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/icons/font-awesome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/icons/simple-line-icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/icons/themify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/boxed-layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/compact-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/horizontal-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/rtl-layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/sidebar-collapsed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/sidebar-fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/sidebar-hidden-overlay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/layout/sidebar-hidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/maps/google-maps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/maps/mapeal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/maps/vector-map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/blank-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/error-404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/error-500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/faq-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/landing-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/lock-screen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/login-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/news-grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/pricing-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/register-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/search-results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/samples/timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/tables/basic-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/tables/data-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/tables/js-grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/tables/sortable-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/accordions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/badges.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/breadcrumbs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/clipboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/colcade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/context-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/dragula.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/dropdowns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/loaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/modals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/notifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/popups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/tabs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/tooltips.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/tour.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/ui-features/typography.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/pages/widgets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/partials/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/partials/_navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/partials/_sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_layouts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/_widget-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_accordions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_bootstrap-alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_bootstrap-progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_breadcrumbs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_checkbox-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_google-maps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_preview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_pricing-table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_timeline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_todo-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_tooltips.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/_user-profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_bar-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_circle-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_colored-balls.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_dot-opacity-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_flip-square-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_glowing-ball.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_jumping-dots-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_loaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_moving-square-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_pixel-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_square-box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_square-path-loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/loaders/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/mail-components/_mail-list-container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/mail-components/_mail-sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/mail-components/_messagecontent.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_ace.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_avgrund.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_bootstrap-tour.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_chartist.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_chartjs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_clockpicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_codemirror.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_colcade.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_colorpicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_context-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_data-tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_datepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_dropify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_dropzone.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_flot-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_full-calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_google-charts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_icheck.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_jquery-file-upload.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_js-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_jvectormap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_light-gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_listify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_no-ui-slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_owl-carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_progressbar-js.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_pws-tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_quill.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_rating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_select2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_summernote.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_sweet-alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_switchery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_tags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_tinymce.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_toast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_typeahead.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_wysieditor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/components/plugin-overrides/_x-editable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/landing-screens/_auth.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/landing-screens/_error.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/landing-screens/_landing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/landing-screens/_lock-screen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_blockqoute.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/mixins/_tooltips.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/plugin-overrides/_flot-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/theme/backend/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/backend/indexBackend.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/backend/dashboard.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/footer/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/footer/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Backend/dashboard.html.twig" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -556,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#40#97#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/backend/dashboard.html.twig">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="264" selection-start-line="264" selection-end-line="264" />
+            <state relative-caret-position="844">
+              <caret line="154" column="10" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -613,16 +63,18 @@
         <option value="$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/footer/footer.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/backend/layoutBackend.html.twig" />
         <option value="$USER_HOME$/Téléchargements/Stellar-master/index.html" />
         <option value="$PROJECT_DIR$/app/Resources/views/backend/dashboard.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/menu/leftMenuBackend.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/baseBackend.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig" />
+        <option value="$USER_HOME$/Téléchargements/Stellar-master/pages/forms/basic_elements.html" />
       </list>
     </option>
   </component>
@@ -715,6 +167,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -772,9 +232,9 @@
       <recent name="$PROJECT_DIR$/app/Resources/views/backend" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/views/backend" />
       <recent name="$PROJECT_DIR$/app/Resources/views/menu" />
       <recent name="$PROJECT_DIR$/app/Resources/views" />
-      <recent name="$PROJECT_DIR$/app/Resources/views/backend" />
       <recent name="$PROJECT_DIR$/web/theme/stellar" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
     </key>
@@ -807,12 +267,12 @@
       <workItem from="1543654258983" duration="6738000" />
       <workItem from="1543759059055" duration="713000" />
       <workItem from="1543762254515" duration="607000" />
-      <workItem from="1543830808755" duration="7044000" />
+      <workItem from="1543830808755" duration="8592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37171000" />
+    <option name="totallyTimeSpent" value="38719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="1049" width="1853" height="1055" extended-state="6" />
@@ -944,13 +404,6 @@
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/security.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1034,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/backend/dashboard2.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1061,49 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="426" column="22" selection-start-line="426" selection-start-column="22" selection-end-line="426" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Téléchargements/Stellar-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="473" column="52" selection-end-line="537" />
-          <folding>
-            <element signature="e#2530#2536#1" expanded="true" />
-            <element signature="e#3003#3009#1" expanded="true" />
-            <element signature="e#3465#3471#1" expanded="true" />
-            <element signature="e#3939#3945#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="133" column="6" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
-          <folding>
-            <element signature="e#1903#1909#1#HTML" expanded="true" />
-            <element signature="e#2540#2546#1#HTML" expanded="true" />
-            <element signature="e#3166#3172#1#HTML" expanded="true" />
-            <element signature="e#3844#3850#1#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,6 +531,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3960">
           <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="97" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Téléchargements/Stellar-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="494" column="24" selection-start-line="494" selection-start-column="24" selection-end-line="494" selection-end-column="24" />
+          <folding>
+            <element signature="e#2530#2536#1" expanded="true" />
+            <element signature="e#3003#3009#1" expanded="true" />
+            <element signature="e#3465#3471#1" expanded="true" />
+            <element signature="e#3939#3945#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Téléchargements/Stellar-master/pages/forms/advanced_elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6075" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Téléchargements/Stellar-master/pages/forms/basic_elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="613" column="18" lean-forward="true" selection-start-line="613" selection-start-column="18" selection-end-line="613" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="154" column="10" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
         </state>
       </provider>
     </entry>
