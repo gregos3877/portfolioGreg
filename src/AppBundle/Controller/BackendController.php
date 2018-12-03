@@ -3,16 +3,16 @@
 namespace AppBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 
 class BackendController extends Controller
 {
     /**
-     * @Route("/dashboard")
+     * @Route("/dashboard", name="dashboard")
      */
     public function dashboardAction()
     {
-        return $this->render('AppBundle:Backend:dashboard.html.twig', array(
+        return $this->render('backend/dashboard.html.twig', array(
             // ...
         ));
     }
