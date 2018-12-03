@@ -5,7 +5,7 @@ namespace AppBundle\Controller;
 use AppBundle\AppBundle;
 use AppBundle\Form\UserType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 
 class UserController extends Controller
