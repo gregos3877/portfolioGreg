@@ -6,7 +6,9 @@
                 alt="logo"></a>
 </div>
 <div class="navbar-menu-wrapper d-flex align-items-center">
+    {% if app.user is not null %}
     <p class="page-name d-none d-lg-block">Hi, {{ app.user.username }}</p>
+    {% endif %}
     <ul class="navbar-nav ml-lg-auto">
         <li class="nav-item">
             <form class="mt-2 mt-md-0 d-none d-lg-block search-input">

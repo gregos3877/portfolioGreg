@@ -24,7 +24,8 @@ class UserController extends Controller
         if ($form->isValid() && $form->isSubmitted()) {
             $em = $this->getDoctrine()->getManager();
             $em->flush();
-            $this->redirectToRoute('homepage');
+
+            return $this->redirectToRoute('dashboard');
 
         }
 

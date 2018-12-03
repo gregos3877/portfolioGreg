@@ -5,6 +5,7 @@
     {{ form_start(form) }}
     {{ form_widget(form) }}
 
+    <p>modifier le mot de passe<a href="{{ path('fos_user_change_password') }}">Cliquez ici</a> </p>
     <input type="submit" value="Modifier"
            class="btn btn-default pull-right" />
     {{ form_end(form) }}
