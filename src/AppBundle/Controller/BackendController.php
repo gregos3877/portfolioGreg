@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class BackendController extends Controller
 {
     /**
-     * @Route("/dashboard", name="dashboard")
+     * @Route("/backend/dashboard", name="dashboard")
      */
     public function dashboardAction()
     {
@@ -17,12 +17,5 @@ class BackendController extends Controller
         ));
     }
 
-    /**
-     * @Route("/monCompte", name="mon_compte")
-     */
-    public function monCompteAction()
-    {
-        return $this->render('backend/monCompte.html.twig');
-    }
 
 }
