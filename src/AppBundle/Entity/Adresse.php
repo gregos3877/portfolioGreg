@@ -43,13 +43,6 @@ class Adresse
     private $voie;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="intituleAdresse", type="string", length=255)
-     */
-    private $intituleAdresse;
-
-    /**
      * @var int
      *
      * @ORM\Column(name="codePostaleAdresse", type="integer")
@@ -152,30 +145,6 @@ class Adresse
     public function getVoie()
     {
         return $this->voie;
-    }
-
-    /**
-     * Set intituleAdresse
-     *
-     * @param string $intituleAdresse
-     *
-     * @return Adresse
-     */
-    public function setIntituleAdresse($intituleAdresse)
-    {
-        $this->intituleAdresse = $intituleAdresse;
-
-        return $this;
-    }
-
-    /**
-     * Get intituleAdresse
-     *
-     * @return string
-     */
-    public function getIntituleAdresse()
-    {
-        return $this->intituleAdresse;
     }
 
     /**

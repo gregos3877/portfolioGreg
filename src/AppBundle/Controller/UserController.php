@@ -7,6 +7,7 @@ use AppBundle\Entity\Adresse;
 use AppBundle\Form\AdresseType;
 use AppBundle\Form\UserType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -18,10 +19,7 @@ class UserController extends Controller
      */
     public function monCompteAction(Request $request)
     {
-        $adresse = new Adresse();
         $form = $this->createForm(UserType::class, $this->getUser());
-//        $form = $this->createForm(AdresseType::class, $adresse);
-//        dump($form);
         $form->handleRequest($request);
 
         if ($form->isValid() && $form->isSubmitted()) {
@@ -35,5 +33,6 @@ class UserController extends Controller
         return $this->render('backend/monCompte.html.twig', array(
             'form'  => $form->createView()
         ));
+//        return new Response("ok");
     }
 }

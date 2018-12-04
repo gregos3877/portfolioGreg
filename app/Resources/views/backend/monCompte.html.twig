@@ -3,11 +3,32 @@
 {% block body %}
 
     {{ form_start(form) }}
+    {{ form_errors(form) }}
 
-    {{ form_widget(form) }}
+    <div>
+        {{ form_label(form.username) }}
+        {{ form_errors(form.username) }}
+        {{ form_widget(form.username) }}
+    </div>
 
-    {#{{ form_row(form.adresses) }}#}
-    {#<a href="#" id="add_adresse" class="btn btn-default">Ajouter une adresse</a>#}
+    <div>
+        {{ form_label(form.email) }}
+        {{ form_errors(form.email) }}
+        {{ form_widget(form.email) }}
+    </div>
+    <div>
+        {{ form_label(form.current_password) }}
+        {{ form_errors(form.current_password) }}
+        {{ form_widget(form.current_password) }}
+    </div>
+    <div>
+        {#{{ form_label(form.adresses) }}#}
+        {{ form_errors(form.adresses) }}
+        {{ form_widget(form.adresses) }}
+    </div>
+
+
+    <a href="#" id="add_adresse" class="btn btn-default">Ajouter une adresse</a>
 
 
     <p>modifier le mot de passe<a href="{{ path('fos_user_change_password') }}">Cliquez ici</a></p>
@@ -24,7 +45,7 @@
 
     {# Voici le script en question : #}
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             // On récupère la balise <div> en question qui contient l'attribut « data-prototype » qui nous intéresse.
             var $container = $('div#appbundle_user_profile_adresses');
 
@@ -32,7 +53,7 @@
             var index = $container.find(':input').length;
 
             // On ajoute un nouveau champ à chaque clic sur le lien d'ajout.
-            $('#add_adresse').click(function(e) {
+            $('#add_adresse').click(function (e) {
                 addAdresse($container);
 
                 e.preventDefault(); // évite qu'un # apparaisse dans l'URL
@@ -42,7 +63,7 @@
             // On ajoute un premier champ automatiquement s'il n'en existe pas déjà un (cas d'une nouvelle annonce par exemple).
             if (index != 0) {
                 // S'il existe déjà des catégories, on ajoute un lien de suppression pour chacune d'entre elles
-                $container.children('div').each(function() {
+                $container.children('div').each(function () {
                     addDeleteLink($(this));
                 });
             }
@@ -53,8 +74,8 @@
                 // - le texte "__name__label__" qu'il contient par le label du champ
                 // - le texte "__name__" qu'il contient par le numéro du champ
                 var template = $container.attr('data-prototype')
-                    .replace(/__name__label__/g, 'Adresse n°' + (index+1))
-                    .replace(/__name__/g,        index)
+                    .replace(/__name__label__/g, 'Adresse n°' + (index + 1))
+                    .replace(/__name__/g, index)
                 ;
 
                 // On crée un objet jquery qui contient ce template
@@ -79,7 +100,7 @@
                 $prototype.append($deleteLink);
 
                 // Ajout du listener sur le clic du lien pour effectivement supprimer la catégorie
-                $deleteLink.click(function(e) {
+                $deleteLink.click(function (e) {
                     $prototype.remove();
 
                     e.preventDefault(); // évite qu'un # apparaisse dans l'URL

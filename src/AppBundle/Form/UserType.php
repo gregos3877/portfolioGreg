@@ -16,12 +16,12 @@ class UserType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-//        $builder->add('adresses', CollectionType::class, array(
-//            'entry_type'    => AdresseType::class,
-//            'allow_add' => true,
-//            'allow_delete' => true,
-//            'empty_data' => null,
-//        ));
+        $builder->add('adresses', CollectionType::class, array(
+            'entry_type'    => AdresseType::class,
+            'allow_add' => true,
+            'allow_delete' => true,
+            'label_format' => "Adresse"
+        ));
     }
 
     public function getParent()
