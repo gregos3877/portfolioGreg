@@ -13,6 +13,9 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        return $this->render('default/index.html.twig');
+        $adresse = $this->getDoctrine()->getRepository('AppBundle:Adresse')->findAll();
+        return $this->render('default/index.html.twig', array(
+            'adresse'   => $adresse[0]->simpleAdresse(),
+        ));
     }
 }

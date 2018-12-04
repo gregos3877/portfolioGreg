@@ -218,4 +218,9 @@ class Adresse
     {
         return $this->paysAdresse;
     }
+
+    public function simpleAdresse()
+    {
+        return $this->numeroAdresse." ".$this->complementNumeroAdresse." ".$this->voie. ", ".$this->codePostaleAdresse." ".$this->villeAdresse." ".$this->paysAdresse;
+    }
 }
