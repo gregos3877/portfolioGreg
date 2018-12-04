@@ -3,6 +3,8 @@
 namespace AppBundle\Controller;
 
 use AppBundle\AppBundle;
+use AppBundle\Entity\Adresse;
+use AppBundle\Form\AdresseType;
 use AppBundle\Form\UserType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Routing\Annotation\Route;
@@ -16,8 +18,9 @@ class UserController extends Controller
      */
     public function monCompteAction(Request $request)
     {
-
+        $adresse = new Adresse();
         $form = $this->createForm(UserType::class, $this->getUser());
+//        $form = $this->createForm(AdresseType::class, $adresse);
 //        dump($form);
         $form->handleRequest($request);
 
