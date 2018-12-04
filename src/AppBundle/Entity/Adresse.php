@@ -81,6 +81,7 @@ class Adresse
         return $this->id;
     }
 
+
     /**
      * Set numeroAdresse
      *
@@ -98,7 +99,7 @@ class Adresse
     /**
      * Get numeroAdresse
      *
-     * @return int
+     * @return integer
      */
     public function getNumeroAdresse()
     {
@@ -194,7 +195,7 @@ class Adresse
     /**
      * Get codePostaleAdresse
      *
-     * @return int
+     * @return integer
      */
     public function getCodePostaleAdresse()
     {
@@ -249,4 +250,3 @@ class Adresse
         return $this->paysAdresse;
     }
 }
-
