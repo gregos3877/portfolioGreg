@@ -1,0 +1,40 @@
+{% extends 'baseBackend.html.twig' %}
+
+{% block body %}
+    <h1>Liensociaux</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ lienSociaux.id }}</td>
+            </tr>
+            <tr>
+                <th>Lientwitter</th>
+                <td>{{ lienSociaux.lienTwitter }}</td>
+            </tr>
+            <tr>
+                <th>Lienfacebook</th>
+                <td>{{ lienSociaux.lienFacebook }}</td>
+            </tr>
+            <tr>
+                <th>Liengithub</th>
+                <td>{{ lienSociaux.lienGithub }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('liensociaux_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('liensociaux_edit', { 'id': lienSociaux.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}
