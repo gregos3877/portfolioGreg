@@ -6,6 +6,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +23,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#40#97#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="128" column="96" selection-start-line="128" selection-start-column="96" selection-end-line="128" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="82" column="33" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="33" />
+              <folding>
+                <element signature="e#36#84#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +97,6 @@
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/AdresseType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/UserType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" />
@@ -80,11 +106,12 @@
         <option value="$PROJECT_DIR$/app/Resources/views/menu/topMenuBackend.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Adresse.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
         <option value="$USER_HOME$/Téléchargements/Stellar-master/pages/forms/basic_elements.html" />
         <option value="$PROJECT_DIR$/app/Resources/views/backend/monCompte.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -183,6 +210,14 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,6 +225,20 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +298,12 @@
       <workItem from="1543850524221" duration="4390000" />
       <workItem from="1543919458622" duration="14753000" />
       <workItem from="1543943643670" duration="2344000" />
-      <workItem from="1544004635709" duration="1474000" />
+      <workItem from="1544004635709" duration="2020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67019000" />
+    <option name="totallyTimeSpent" value="67565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="1049" width="1853" height="1055" extended-state="6" />
@@ -470,16 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding>
-            <element signature="e#36#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/AdresseType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -553,33 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="128" column="71" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -598,6 +610,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="e#36#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="128" column="96" selection-start-line="128" selection-start-column="96" selection-end-line="128" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

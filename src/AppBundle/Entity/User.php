@@ -79,4 +79,8 @@ class User extends BaseUser
     {
         return $this->adresses;
     }
+
+    public function uniqueAdresse() {
+        return $this->adresses[0];
+    }
 }
