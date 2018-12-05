@@ -22,7 +22,12 @@ class BackendController extends Controller
      */
     public function contactAction() {
 
-        return $this->render('backend/contact.html.twig');
+        $em = $this->getDoctrine()->getManager();
+        $contacts = $this->getDoctrine()->getRepository('AppBundle:EmailInterested')->findAll();
+
+        return $this->render('backend/contact.html.twig', array(
+            'contacts'  => $contacts,
+        ));
     }
 
 
