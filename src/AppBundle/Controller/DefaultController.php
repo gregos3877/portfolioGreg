@@ -13,9 +13,11 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        $user = $this->getDoctrine()->getRepository('AppBundle:user')->findAll();
+        $user = $this->getDoctrine()->getRepository('AppBundle:User')->findAll();
+        $lienSociaux = $this->getDoctrine()->getRepository('AppBundle:LienSociaux')->findAll();
         return $this->render('default/index.html.twig', array(
-            'user'      => $user[0],
+            'user'          => $user[0],
+            'lienSociaux'   => $lienSociaux[0],
         ));
     }
 }
