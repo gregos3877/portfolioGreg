@@ -28,17 +28,17 @@ class DefaultController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($email);
             $em->flush();
+
+            $email = new EmailInterested();
+            $form = $this->createForm(EmailInterestedType::class, $email);
         }
 
-        $response = $this->render('default/index.html.twig', array(
+        return $this->render('default/index.html.twig', array(
             'user' => $user[0],
             'lienSociaux' => $lienSociaux[0],
             'form' => $form->createView(),
         ));
 
-        return $response;
-
-        return $response;
     }
 
 }
