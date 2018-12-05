@@ -1,0 +1,36 @@
+{% extends 'baseBackend.html.twig' %}
+
+{% block body %}
+
+    <div class="row">
+
+        <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Contact Recu</h4>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for contact in contacts %}
+                            {#Use badge badge-danger, badge badge-warning, badge badge-info, badge badge-success#}
+                            <tr>
+                                <td>{{ contact.emailInterested }}</td>
+                                <td>{{ contact.dateInterested|date('d/m/Y h:i:s') }}</td>
+                                <td><label class="badge badge-danger">Pending</label></td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

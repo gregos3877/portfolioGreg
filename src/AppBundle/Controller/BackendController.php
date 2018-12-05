@@ -17,5 +17,18 @@ class BackendController extends Controller
         ));
     }
 
+    /**
+     * @Route("/contact", name="backend_contact")
+     */
+    public function contactAction() {
+
+        $em = $this->getDoctrine()->getManager();
+        $contacts = $this->getDoctrine()->getRepository('AppBundle:EmailInterested')->findAll();
+
+        return $this->render('backend/contact.html.twig', array(
+            'contacts'  => $contacts,
+        ));
+    }
+
 
 }
