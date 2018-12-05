@@ -1,8 +1,26 @@
 {% extends 'base.html.twig' %}
 
+{% form_theme form _self %}
+
+{%- block form_errors -%}
+    {%- if errors|length > 0 -%}
+            {%- for error in errors -%}
+                {{ error.message }}
+            {%- endfor -%}
+    {%- endif -%}
+{%- endblock form_errors -%}
+
+{% block messageForm %}
+    <!-- Message Form -->
+    {% if form_errors(form.emailInterested) %}
+        <div style="background-color: red; color-rendering: red">
+            {{ form_errors(form.emailInterested) }}
+        </div>
+
+    {% endif %}
+{% endblock %}
 
 {% block body %}
-
     <!-- Header -->
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
@@ -107,15 +125,15 @@
 
 
                     {#<form class="form-inline d-flex">#}
-                        {#<input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"#}
-                               {#placeholder="Enter email address...">#}
-                        {#<button type="submit" class="btn btn-primary mx-auto">I'm Interested</button>#}
+                    {#<input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"#}
+                    {#placeholder="Enter email address...">#}
+                    {#<button type="submit" class="btn btn-primary mx-auto">I'm Interested</button>#}
                     {#</form>#}
                     {{ form_start(form, {'attr': {'class': 'form-inline d-flex'}}) }}
                     {{ form_errors(form) }}
-                        {{ form_errors(form.emailInterested) }}
+                    {{ form_errors(form.emailInterested) }}
 
-                        {{ form_widget(form.emailInterested, {'attr': {'type': 'email', 'class': 'form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0', 'placeholder': 'Enter email adress ...'}}) }}
+                    {{ form_widget(form.emailInterested, {'attr': {'type': 'email', 'class': 'form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0', 'placeholder': 'Enter email adress ...'}}) }}
 
 
                     <input type="submit" value="I'm Interested"
