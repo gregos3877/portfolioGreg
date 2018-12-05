@@ -17,5 +17,13 @@ class BackendController extends Controller
         ));
     }
 
+    /**
+     * @Route("/contact", name="backend_contact")
+     */
+    public function contactAction() {
+
+        return $this->render('backend/contact.html.twig');
+    }
+
 
 }
