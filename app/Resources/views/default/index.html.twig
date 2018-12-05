@@ -1,4 +1,6 @@
 {% extends 'base.html.twig' %}
+
+
 {% block body %}
 
     <!-- Header -->
@@ -101,13 +103,24 @@
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
 
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                    <h2 class="text-white mb-5">If you are interested by this project !</h2>
 
-                    <form class="form-inline d-flex">
-                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
-                               placeholder="Enter email address...">
-                        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-                    </form>
+
+                    {#<form class="form-inline d-flex">#}
+                        {#<input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"#}
+                               {#placeholder="Enter email address...">#}
+                        {#<button type="submit" class="btn btn-primary mx-auto">I'm Interested</button>#}
+                    {#</form>#}
+                    {{ form_start(form, {'attr': {'class': 'form-inline d-flex'}}) }}
+                    {{ form_errors(form) }}
+                        {{ form_errors(form.emailInterested) }}
+
+                        {{ form_widget(form.emailInterested, {'attr': {'type': 'email', 'class': 'form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0', 'placeholder': 'Enter email adress ...'}}) }}
+
+
+                    <input type="submit" value="I'm Interested"
+                           class="btn btn-primary mx-auto"/>
+                    {{ form_end(form) }}
 
                 </div>
             </div>
