@@ -1,4 +1,5 @@
 <ul class="nav">
+    {#GENERAL#}
     <li class="nav-item nav-category">
         <span class="nav-link">GENERAL</span>
     </li>
@@ -14,6 +15,24 @@
             <i class="icon-wrench menu-icon"></i>
         </a>
     </li>
+    {#Project#}
+    <li class="nav-item nav-category">
+        <span class="nav-link">PROJECT</span>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ path('new_projet') }}">
+            <span class="menu-title">Nouveau Projet</span>
+            <i class="icon-grid menu-icon"></i>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ path('liste_projet') }}">
+            <span class="menu-title">Mes Projets</span>
+            <i class="icon-grid menu-icon"></i>
+        </a>
+    </li>
+
+    {#DONNÉES PERSONNELLES#}
     <li class="nav-item nav-category">
         <span class="nav-link">DONNÉES PERSONNELLES</span>
     </li>
