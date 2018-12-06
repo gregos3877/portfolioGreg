@@ -3,7 +3,6 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
 /**
  * Projet
  *
@@ -36,7 +35,7 @@ class Projet
     /**
      * @ORM\Column(name="imageProjet", type="string", length=255)
      */
-    private $ImageProjet;
+    private $imageProjet;
 
 
     /**
@@ -106,7 +105,7 @@ class Projet
      */
     public function setImageProjet($imageProjet)
     {
-        $this->ImageProjet = $imageProjet;
+        $this->imageProjet = $imageProjet;
 
         return $this;
     }
@@ -118,6 +117,6 @@ class Projet
      */
     public function getImageProjet()
     {
-        return $this->ImageProjet;
+        return $this->imageProjet;
     }
 }

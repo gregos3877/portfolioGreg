@@ -18,7 +18,7 @@ class DefaultController extends Controller
     {
         $user = $this->getDoctrine()->getRepository('AppBundle:User')->findAll();
         $lienSociaux = $this->getDoctrine()->getRepository('AppBundle:LienSociaux')->findAll();
-
+        $listeProjet = $this->getDoctrine()->getRepository('AppBundle:Projet')->findAll();
         $email = new EmailInterested();
         $form = $this->createForm(EmailInterestedType::class, $email);
 
@@ -34,9 +34,10 @@ class DefaultController extends Controller
         }
 
         return $this->render('default/index.html.twig', array(
-            'user' => $user[0],
-            'lienSociaux' => $lienSociaux[0],
-            'form' => $form->createView(),
+            'user'          => $user[0],
+            'lienSociaux'   => $lienSociaux[0],
+            'form'          => $form->createView(),
+            'listeProjet'   => $listeProjet,
         ));
 
     }

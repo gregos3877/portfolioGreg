@@ -50,6 +50,31 @@ class ProjetController extends Controller
         ));
     }
 
+
+    /**
+     * @Route("/backend/listeProjet", name="liste_projet")
+     */
+    public function listeProjetAction()
+    {
+
+        $listeProjet = $this->getDoctrine()->getRepository('AppBundle:Projet')->findAll();
+
+        dump($listeProjet);
+        return $this->render('projet/listeProjet.html.twig', array(
+            'listeProjet' => $listeProjet,
+        ));
+    }
+
+    /**
+     * @Route("backend/projet/view/{id}", name="view_projet")
+     */
+    public function viewProjetAction(Projet $projet)
+    {
+        return $this->render('projet/viewProjet.html.twig', array(
+            'projet'    => $projet,
+        ));
+    }
+
     /**
      * @return string
      */
@@ -59,4 +84,5 @@ class ProjetController extends Controller
         // uniqid(), which is based on timestamps
         return md5(uniqid());
     }
+
 }
