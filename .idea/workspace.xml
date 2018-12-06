@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09bcf3bd-7ee2-4468-ad1a-292c66d19935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/backend/descriptionGeneral.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/menu/menuBackend.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/menu/menuBackend.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/0edb59559c485f9f3eefe9f81edc3229.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/0edb59559c485f9f3eefe9f81edc3229.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/1129987bf9dc92234a34d9f18578d9b2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/1129987bf9dc92234a34d9f18578d9b2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/26441a9a79c09ca8ce4fbcacd67ef7f8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/26441a9a79c09ca8ce4fbcacd67ef7f8.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/27e844f48170e95dbc68e80f0809dd87.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/27e844f48170e95dbc68e80f0809dd87.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/3f418784710055aad95618a60c50901f.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/3f418784710055aad95618a60c50901f.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/4a397df8139e5605fe89f1a3f9364e65.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/4a397df8139e5605fe89f1a3f9364e65.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/62e2544aa4fd96ec494d3a112fc8e5a2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/62e2544aa4fd96ec494d3a112fc8e5a2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/674e5e57fe732fa484c586023cecabde.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/674e5e57fe732fa484c586023cecabde.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/6b60aaea6f504f9a230a360da0245c4d.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/6b60aaea6f504f9a230a360da0245c4d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/6f3ad46f59a759282f70a9d9674c5472.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/6f3ad46f59a759282f70a9d9674c5472.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/7e96a0013327a25865e9e7d210dd8882.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/7e96a0013327a25865e9e7d210dd8882.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/9261f288350209c26512c2db3d1241a2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/9261f288350209c26512c2db3d1241a2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/a03c0c050eec6ac06898a65bfbb1abed.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/a03c0c050eec6ac06898a65bfbb1abed.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/a75993c86b8c23b5b9d25f59defe93d0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/a75993c86b8c23b5b9d25f59defe93d0.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/b299e29abc15c2d2b4e993fe87cf0397.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/b299e29abc15c2d2b4e993fe87cf0397.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bebfc7ffa6c8e9fc1f1efb49cf244d03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bebfc7ffa6c8e9fc1f1efb49cf244d03.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/c24ccace599e5d799b69472838347b55.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/c24ccace599e5d799b69472838347b55.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/d097ca773524399691076e703755ebe1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/d097ca773524399691076e703755ebe1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/eb8dc4f92dfbf855fe8820fa8208adfd.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/eb8dc4f92dfbf855fe8820fa8208adfd.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/ec170e0862c2be92b50b4f72df149397.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/ec170e0862c2be92b50b4f72df149397.jpeg" afterDir="false" />
-    </list>
+    <list default="true" id="09bcf3bd-7ee2-4468-ad1a-292c66d19935" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,45 +14,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BackendController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-              <folding>
-                <element signature="e#40#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/DescriptionGeneral.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
@@ -238,56 +171,6 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="liensociaux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,38 +183,6 @@
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -394,12 +245,12 @@
       <workItem from="1543919458622" duration="14753000" />
       <workItem from="1543943643670" duration="2344000" />
       <workItem from="1544004635709" duration="24781000" />
-      <workItem from="1544089110885" duration="9866000" />
+      <workItem from="1544089110885" duration="10903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100192000" />
+    <option name="totallyTimeSpent" value="101229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="1049" width="1853" height="1055" extended-state="6" />
@@ -770,13 +621,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding>
-            <element signature="e#40#77#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -790,17 +645,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu/menu.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="88" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="92" />
+        <state relative-caret-position="645">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="e#40#77#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
