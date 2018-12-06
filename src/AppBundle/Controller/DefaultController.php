@@ -19,6 +19,9 @@ class DefaultController extends Controller
         $user = $this->getDoctrine()->getRepository('AppBundle:User')->findAll();
         $lienSociaux = $this->getDoctrine()->getRepository('AppBundle:LienSociaux')->findAll();
         $listeProjet = $this->getDoctrine()->getRepository('AppBundle:Projet')->findAll();
+        $description = $this->getDoctrine()->getRepository('AppBundle:DescriptionGeneral')->findAll();
+
+
         $email = new EmailInterested();
         $form = $this->createForm(EmailInterestedType::class, $email);
 
@@ -38,6 +41,7 @@ class DefaultController extends Controller
             'lienSociaux'   => $lienSociaux[0],
             'form'          => $form->createView(),
             'listeProjet'   => $listeProjet,
+            'description'   => $description[0],
         ));
 
     }
