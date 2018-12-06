@@ -2,7 +2,9 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\DescriptionGeneral;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
 class BackendController extends Controller
@@ -28,6 +30,43 @@ class BackendController extends Controller
         return $this->render('backend/contact.html.twig', array(
             'contacts'  => $contacts,
         ));
+    }
+
+    /**
+     * @Route("/backend/descriptionGeneral", name="description_general")
+     */
+    public function descriptionGeneralAction(Request $request) {
+        $em = $this->getDoctrine()->getManager();
+
+        $description = $em->getRepository('AppBundle:DescriptionGeneral')->findAll();
+
+
+        if ($description == null) {
+            $description = new DescriptionGeneral();
+            $description->setDescriptionApp("Description de l'application");
+            $description->setNomApp("Nom App");
+            $em->persist($description);
+            $em->flush();
+        }
+        else {
+            $description = $description[0];
+        }
+
+        $editForm = $this->createForm('AppBundle\Form\DescriptionGeneralType', $description);
+        $editForm->handleRequest($request);
+
+        if ($editForm->isSubmitted() && $editForm->isValid()) {
+            $this->getDoctrine()->getManager()->flush();
+
+            return $this->redirectToRoute('dashboard');
+        }
+
+        return $this->render('backend/descriptionGeneral.html.twig', array(
+            '$description' => $description,
+            'edit_form' => $editForm->createView(),
+        ));
+
+        return $this->render('backend/descriptionGeneral.html.twig');
     }
 
 
