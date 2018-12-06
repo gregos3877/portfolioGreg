@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09bcf3bd-7ee2-4468-ad1a-292c66d19935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/projet/listeProjet.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/projet/viewProjet.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/menu/menuBackend.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/menu/menuBackend.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ProjetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ProjetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Projet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/ProjetType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/ProjetType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/ProjetRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/ProjetRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/ProjetControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/ProjetControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/ab8982ba2a3acb33a1e3494db1a1e9a4.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/ab8982ba2a3acb33a1e3494db1a1e9a4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/fab7031ff8ccc8c6fbda562a2edc895d.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fab7031ff8ccc8c6fbda562a2edc895d.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +18,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="205" selection-start-line="205" selection-end-line="205" />
+            <state relative-caret-position="499">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/theme/vendor/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="480" column="1" selection-start-line="480" selection-start-column="1" selection-end-line="480" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/theme/backend/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="7793" column="1" selection-start-line="7793" selection-start-column="1" selection-end-line="7793" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -294,12 +300,12 @@
       <workItem from="1543919458622" duration="14753000" />
       <workItem from="1543943643670" duration="2344000" />
       <workItem from="1544004635709" duration="24781000" />
-      <workItem from="1544089110885" duration="3576000" />
+      <workItem from="1544089110885" duration="4864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93902000" />
+    <option name="totallyTimeSpent" value="95190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="1049" width="1853" height="1055" extended-state="6" />
@@ -330,25 +336,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Téléchargements/Stellar-master/pages/forms/advanced_elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/backend/dashboard.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1724">
-          <caret line="264" selection-start-line="264" selection-end-line="264" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -685,10 +672,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/theme/backend/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="7793" column="1" selection-start-line="7793" selection-start-column="1" selection-end-line="7793" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/theme/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="5" column="5498" selection-start-line="5" selection-start-column="5498" selection-end-line="5" selection-end-column="5498" />
+          <folding>
+            <element signature="e#57526#57726#2" expanded="true" />
+            <element signature="e#57934#58083#2" expanded="true" />
+            <element signature="e#58585#58731#2" expanded="true" />
+            <element signature="e#59032#59198#1" expanded="true" />
+            <element signature="e#70814#71057#2" expanded="true" />
+            <element signature="e#71924#72173#2" expanded="true" />
+            <element signature="e#99236#99426#2" expanded="true" />
+            <element signature="e#99472#99662#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/theme/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="480" column="1" selection-start-line="480" selection-start-column="1" selection-end-line="480" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        <state relative-caret-position="499">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
