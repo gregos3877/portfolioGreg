@@ -4,6 +4,7 @@ namespace AppBundle\Controller;
 
 use AppBundle\Entity\Projet;
 use AppBundle\Form\ProjetType;
+use http\Env\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -36,6 +37,17 @@ class ProjetController extends Controller
             }
 
             $projet->setImageProjet($fileName);
+
+            $shortDescription = substr($projet->getDescriptionProjet(), 0, 251);
+
+
+            if (strlen($shortDescription) == 251 ) {
+                $projet->setShortDescriptionProjet($shortDescription." ...");
+            }
+            else {
+                $projet->setShortDescriptionProjet($shortDescription) ;
+            }
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($projet);
             $em->flush();

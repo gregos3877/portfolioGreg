@@ -37,6 +37,11 @@ class Projet
      */
     private $imageProjet;
 
+    /**
+     * @ORM\Column(name="shortDescriptionProjet", type="string", length=255)
+     */
+    private $shortDescriptionProjet;
+
 
     /**
      * Get id
@@ -119,4 +124,27 @@ class Projet
     {
         return $this->imageProjet;
     }
+
+    /**
+     *  Get shortDescription
+     *
+     * @return string
+     */
+    public function getShortDescriptionProjet() {
+        return $this->shortDescriptionProjet;
+    }
+
+    /**
+     * Set shortDescriptionProjet
+     *
+     * @param string $shortDescription
+     *
+     * @return Projet
+     */
+    public function setShortDescriptionProjet($shortDescription) {
+        $this->shortDescriptionProjet = $shortDescription ;
+
+        return $this;
+    }
+
 }
